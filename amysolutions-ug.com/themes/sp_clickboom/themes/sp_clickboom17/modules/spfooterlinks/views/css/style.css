@@ -1,0 +1,108 @@
+/*******************************************************
+  SP FooterLinks Module Style
+********************************************************/
+.spfooterlinks h4.title-footer {
+  color: #222;
+  text-transform: capitalize;
+  font-weight: 600;
+  position: relative;
+  margin: 0 0 15px;
+  padding: 0 0 20px;
+  font-size: 18px; }
+  .spfooterlinks h4.title-footer:after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 20px;
+    position: absolute;
+    left: 0;
+    right: auto;
+    bottom: 0;
+    background: #aaa; }
+.spfooterlinks ul.links {
+  padding: 0; }
+  .spfooterlinks ul.links li {
+    padding: 8px 0; }
+    .spfooterlinks ul.links li a {
+      color: #666;
+      display: block;
+      padding: 0 0 0 13px;
+      position: relative;
+      transition: 0.3s all ease 0s;
+      font-size: 14px; }
+      .spfooterlinks ul.links li a:before {
+        content: "";
+        border-radius: 50%;
+        display: block;
+        height: 5px;
+        width: 5px;
+        background: #fff;
+        position: absolute;
+        top: 7px;
+        left: 0;
+        right: auto;
+        border: solid 1px #666; }
+
+.footer-link.footer-link-2 {
+  padding-left: 70px; }
+.footer-link.footer-link-3 {
+  padding-left: 25px; }
+
+.footer-container.footer-v2 .spfooterlinks h4.title-footer {
+  color: #fff; }
+.footer-container.footer-v2 .spfooterlinks ul.links {
+  padding: 0; }
+  .footer-container.footer-v2 .spfooterlinks ul.links li a {
+    color: #d3d3d3; }
+    .footer-container.footer-v2 .spfooterlinks ul.links li a:before {
+      background: #222;
+      border: solid 1px #d3d3d3; }
+
+.footer-container.footer-v3 .spfooterlinks h4.title-footer {
+  color: #fff; }
+.footer-container.footer-v3 .spfooterlinks ul.links {
+  padding: 0; }
+  .footer-container.footer-v3 .spfooterlinks ul.links li a {
+    color: #bcbec2; }
+    .footer-container.footer-v3 .spfooterlinks ul.links li a:before {
+      background: #1f2534;
+      border: solid 1px #fff; }
+
+.footer-container.footer-v4 .footer-link.footer-link-2 {
+  padding-left: 80px; }
+.footer-container.footer-v4 .footer-link.footer-link-3 {
+  padding-left: 50px; }
+.footer-container.footer-v4 .spfooterlinks h4.title-footer {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 16px;
+  padding-bottom: 0; }
+  .footer-container.footer-v4 .spfooterlinks h4.title-footer:after {
+    display: none; }
+.footer-container.footer-v4 .spfooterlinks ul.links li a:before {
+  background: #999;
+  border: solid 1px #999; }
+
+@media (max-width: 991px) {
+  div.footer-link.footer-link-2, div.footer-link.footer-link-3 {
+    padding-left: 15px; }
+
+  div.footer-container.footer-v4 .footer-link.footer-link-2 {
+    padding-left: 15px; }
+  div.footer-container.footer-v4 .footer-link.footer-link-3 {
+    padding-left: 15px; }
+
+  .lang-rtl div.footer-link.footer-link-2, .lang-rtl div.footer-link.footer-link-3 {
+    padding-right: 15px; }
+  .lang-rtl div.footer-container.footer-v4 .footer-link.footer-link-2 {
+    padding-right: 15px; }
+  .lang-rtl div.footer-container.footer-v4 .footer-link.footer-link-3 {
+    padding-right: 15px; } }
+@media (min-width: 768px) and (max-width: 991px) {
+  div.footer-container.footer-v3 .footer-link-1 {
+    padding-bottom: 50px; }
+
+  div.footer-container.footer-v4 .footer-link.footer-link-2 {
+    padding-bottom: 50px; } }
+
+/*# sourceMappingURL=style.css.map */
